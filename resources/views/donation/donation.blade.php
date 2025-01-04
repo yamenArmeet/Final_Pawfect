@@ -1,6 +1,52 @@
 @extends('layout')
 
 @section('content')
+    <style>
+        .modal-header {
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .modal-title {
+            color: #343a40;
+        }
+
+        .modal-body {
+            font-size: 16px;
+            color: #6c757d;
+        }
+
+        .modal-footer {
+            background-color: #f8f9fa;
+            border-top: 1px solid #dee2e6;
+        }
+
+        .btn-close {
+            background-color: #6c757d;
+            border: none;
+        }
+
+        .btn-close:hover {
+            background-color: #5a6268;
+        }
+
+        .btn-secondary {
+            background-color: #6c757d;
+            border: none;
+        }
+
+        .btn-secondary:hover {
+            background-color: #5a6268;
+        }
+
+        .text-dark {
+            color: #343a40 !important;
+        }
+
+        .text-center {
+            margin: 0 auto;
+        }
+    </style>
 
     <body>
 
@@ -134,9 +180,7 @@
                         <div class="modal-body">
                             for donation you need to login first
                             <br>
-                            <div class="d-flex "><a class="text-dark text-center" href="{{ route('login') }}">Login</a>
-                            </div>
-
+                            <div class="d-flex"><a class="text-dark text-center" href="{{ route('login') }}">Login</a></div>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
