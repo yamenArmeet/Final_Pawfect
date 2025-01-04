@@ -1,52 +1,6 @@
 @extends('layout')
 
 @section('content')
-    <style>
-        .modal-header {
-            background-color: #f8f9fa;
-            border-bottom: 1px solid #dee2e6;
-        }
-
-        .modal-title {
-            color: #343a40;
-        }
-
-        .modal-body {
-            font-size: 16px;
-            color: #6c757d;
-        }
-
-        .modal-footer {
-            background-color: #f8f9fa;
-            border-top: 1px solid #dee2e6;
-        }
-
-        .btn-close {
-            background-color: #6c757d;
-            border: none;
-        }
-
-        .btn-close:hover {
-            background-color: #5a6268;
-        }
-
-        .btn-secondary {
-            background-color: #6c757d;
-            border: none;
-        }
-
-        .btn-secondary:hover {
-            background-color: #5a6268;
-        }
-
-        .text-dark {
-            color: #343a40 !important;
-        }
-
-        .text-center {
-            margin: 0 auto;
-        }
-    </style>
 
     <body>
 
@@ -142,7 +96,7 @@
                                         Donate Now
                                         @else<button type="button" class="btn btn-light text-center mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             Donate Now
-                                          </button> @endif
+                                        </button> @endif
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                         fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
                                         <path fill-rule="evenodd"
@@ -161,11 +115,6 @@
 
             </div>
 
-        </section>
-        <!-- Shelters -->
-
-
-        <section>
             <!-- Button trigger modal -->
 
 
@@ -180,10 +129,11 @@
                         <div class="modal-body">
                             for donation you need to login first
                             <br>
-                            <div class="d-flex"><a class="text-dark text-center" href="{{ route('login') }}">Login</a></div>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <a href="{{ route('login') }}" class="btn text-white" data-bs-dismiss="modal"
+                                style="background-color:#4D9B36">Go to Login</a>
                             {{-- <button type="button" class="btn btn-primary">Save changes</button> --}}
                         </div>
                     </div>
