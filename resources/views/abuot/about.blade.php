@@ -37,8 +37,7 @@
                         </p>
                     </div>
                     <div class="col-lg-4 col-12">
-                        <img src="{{ asset('assets/images/Home.png') }}" class="card-img-top mx-auto d-block"
-                            alt="Pet Image">
+                        <img class="img-fluid  mb-4 rounded-5 " src="{{ asset('assets/images/Home.svg') }}" />
                     </div>
                 </div>
             </div>
