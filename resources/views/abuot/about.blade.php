@@ -63,11 +63,13 @@
                             <img src="https://via.placeholder.com/400x300" class="card-img-top mx-auto d-block"
                                 alt="Drools 3KG">
                             <div class="card-body">
-                                <h5 class="card-title mb-3">Member 1</h5>
-                                <p class="card-text mb-2">Front-End Developer</p>
+                                <h5 class="card-title mb-3">yamen</h5>
+                                <p class="card-text mb-2">Front-End Developer<br>
+                                    team ledr</p>
                                 <a href="#" class="mx-2"><i class="bi bi-linkedin"></i></a>
                                 <a href="#" class="mx-2"><i class="bi bi-envelope-at-fill"></i></a>
-                                <a href="#" class="mx-2"><i class="bi bi-whatsapp"></i></a>
+                                <a href="https://wa.me/9620780144284" target="_blank" class="mx-2"><i
+                                        class="bi bi-whatsapp"></i></a>
                             </div>
                         </div>
                     </div>
@@ -79,11 +81,11 @@
                             <img src="https://via.placeholder.com/400x300" class="card-img-top mx-auto d-block"
                                 alt="Drools 3KG">
                             <div class="card-body">
-                                <h5 class="card-title mb-3">Member 2</h5>
+                                <h5 class="card-title mb-3">al ared </h5>
                                 <p class="card-text mb-2">UI/UX Designer</p>
                                 <a href="#" class="mx-2"><i class="bi bi-linkedin"></i></a>
                                 <a href="#" class="mx-2"><i class="bi bi-envelope-at-fill"></i></a>
-                                <a href="#" class="mx-2"><i class="bi bi-whatsapp"></i></a>
+                                <a href="https://wa.me/796260469" class="mx-2"><i class="bi bi-whatsapp"></i></a>
                             </div>
                         </div>
                     </div>
@@ -95,11 +97,10 @@
                             <img src="https://via.placeholder.com/400x300" class="card-img-top mx-auto d-block"
                                 alt="Drools 3KG">
                             <div class="card-body">
-                                <h5 class="card-title mb-3">Member 3</h5>
+                                <h5 class="card-title mb-3">bou s3oud 3</h5>
                                 <p class="card-text mb-2">Back-End Developer</p>
                                 <a href="#" class="mx-2"><i class="bi bi-linkedin"></i></a>
                                 <a href="#" class="mx-2"><i class="bi bi-envelope-at-fill"></i></a>
-                                <a href="#" class="mx-2"><i class="bi bi-whatsapp"></i></a>
                             </div>
                         </div>
                     </div>
@@ -111,11 +112,10 @@
                             <img src="https://via.placeholder.com/400x300" class="card-img-top mx-auto d-block"
                                 alt="Drools 3KG">
                             <div class="card-body">
-                                <h5 class="card-title mb-3">Member 4</h5>
+                                <h5 class="card-title mb-3">jaser</h5>
                                 <p class="card-text mb-2">Back-End Developer</p>
                                 <a href="#" class="mx-2"><i class="bi bi-linkedin"></i></a>
                                 <a href="#" class="mx-2"><i class="bi bi-envelope-at-fill"></i></a>
-                                <a href="#" class="mx-2"><i class="bi bi-whatsapp"></i></a>
                             </div>
                         </div>
                     </div>
@@ -127,11 +127,11 @@
                             <img src="https://via.placeholder.com/400x300" class="card-img-top mx-auto d-block"
                                 alt="Drools 3KG">
                             <div class="card-body">
-                                <h5 class="card-title mb-3">Member 5</h5>
+                                <h5 class="card-title mb-3">edd al manek 5</h5>
                                 <p class="card-text mb-2">Back-End Developer</p>
                                 <a href="#" class="mx-2"><i class="bi bi-linkedin"></i></a>
                                 <a href="#" class="mx-2"><i class="bi bi-envelope-at-fill"></i></a>
-                                <a href="#" class="mx-2"><i class="bi bi-whatsapp"></i></a>
+                                <a href="https://wa.me/785059897" class="mx-2"><i class="bi bi-whatsapp"></i></a>
                             </div>
                         </div>
                     </div>
