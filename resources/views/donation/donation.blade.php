@@ -117,7 +117,6 @@
 
             <!-- Button trigger modal -->
 
-
             <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
@@ -132,9 +131,9 @@
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <a href="{{ route('login') }}" class="btn text-white" data-bs-dismiss="modal"
-                                style="background-color:#4D9B36">Go to Login</a>
-                            {{-- <button type="button" class="btn btn-primary">Save changes</button> --}}
+                            <a href="{{ route('login') }}" class="btn text-white" style="background-color:#4D9B36">Go to
+                                Login</a>
+                            {{-- <a href="{{ route('login') }}" class="btn btn-primary">Save changes</a=> --}}
                         </div>
                     </div>
                 </div>
