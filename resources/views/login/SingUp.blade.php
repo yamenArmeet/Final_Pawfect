@@ -35,7 +35,7 @@
                     <hr>
                 </div>
                 <div class="featured-image mb-3">
-                    <img src="{{ asset('assets/images/xdd.png') }}" class="img-fluid" style="height: 450px;">
+                    <img src="{{ asset('assets/images/Paws.png') }}" class="img-fluid" style="height: 450px;">
                 </div>
             </div>
             <!-- end of left box -->

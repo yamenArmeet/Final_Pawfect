@@ -4,7 +4,7 @@
          <div class="row justify-content-center">
              <!-- Brand and Tagline -->
              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                 <img src="{{ asset('assets/images/white_gg.svg') }}" class="img-fluid" style="width: 10rem">
+                 <img src="{{ asset('assets/images/logo_white.svg') }}" class="img-fluid" style="width: 10rem">
                  <p>"Where every paw finds a home."</p>
              </div>
              <!-- Brand and Tagline -->
