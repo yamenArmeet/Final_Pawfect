@@ -122,11 +122,13 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header text-white" style="background-color: #4D9B36;">
-                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <h5 class="modal-title" id="exampleModalLabel">Login to Make a Donation</h5>
+                            <button type="button" class="btn text-white" data-bs-dismiss="modal" aria-label="Close">
+                                <i class="bi bi-x-lg" style="font-size: 20px;"></i>
+                            </button>
                         </div>
                         <div class="modal-body">
-                            for donation you need to login first
+                            For donation you need to login first
                             <br>
                         </div>
                         <div class="modal-footer">
@@ -139,88 +141,82 @@
                 </div>
             </div>
         </section>
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header text-white" style="background-color: #4D9B36;">
-                        <h5 class="modal-title" id="exampleModalLabel">Find Your Perfect Match</h5>
-                        <button type="button" class="btn text-white" data-bs-dismiss="modal" aria-label="Close">
-                            <i class="bi bi-x-lg" style="font-size: 20px;"></i>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <form action="">
-                            <div class="row justify-content-center align-items-center">
-                                <div class="col-6">
-                                    <p class="mb-2 fs-5">Pet Type</p>
-                                    <select class="form-select">
-                                        <option selected value="any">Any</option>
-                                        <option value="cats">Cats</option>
-                                        <option value="dogs">Dogs</option>
-                                    </select>
-                                </div>
-                                <div class="col-6">
-                                    <p class="mb-2 fs-5">Age</p>
-                                    <select class="form-select">
-                                        <option selected value="any">Any</option>
-                                        <option value="puppy">Puppy</option>
-                                        <option value="young">Young</option>
-                                        <option value="adult">Adult</option>
-                                        <option value="senior">Senior</option>
-                                    </select>
-                                </div>
-                                <div class="col-6 mt-4">
-                                    <p class="mb-2 fs-5">Color</p>
-                                    <select class="form-select">
-                                        <option selected value="any">Any</option>
-                                        <option value="black">Black</option>
-                                        <option value="white">White</option>
-                                        <option value="brown">Brown</option>
-                                        <option value="graySilver">Gray/Silver</option>
-                                        <option value="goldenOrange">Golden/Orange</option>
 
-                                    </select>
-                                </div>
-                                <div class="col-6 mt-4">
-                                    <p class="mb-2 fs-5">Gender</p>
-                                    <select class="form-select">
-                                        <option selected value="any">Any</option>
-                                        <option value="male">Male</option>
-                                        <option value="female">Female</option>
-                                    </select>
-                                </div>
-                                <div class="col-6 mt-4">
-                                    <p class="mb-2 fs-5">Size</p>
-                                    <select class="form-select">
-                                        <option selected value="any">Any</option>
-                                        <option value="small">Small (0-25 lbs)</option>
-                                        <option value="medium">Medium (26-60 lbs)</option>
-                                        <option value="large">Large (61-100 lbs)</option>
-                                        <option value="extraLarge">Extra Large (101 lbs or more)
-                                        </option>
-                                    </select>
-                                </div>
-                                <div class="col-6 mt-4">
-                                    <p class="mb-2 fs-5">Breed</p>
-                                    <select class="form-select">
-                                        <option selected value="any">Any</option>
-                                        <option value="bestSelling">Best selling</option>
-                                        <option value="AlpAtoZ">Alphabetically, A-Z</option>
-                                        <option value="AlpZtoA">Alphabetically, Z-A</option>
-                                        <option value="priceLtoH">Price, low to high</option>
-                                        <option value="priceHtoL">Price, high to low</option>
-                                        <option value="dateOtoN">Date, old to new</option>
-                                        <option value="dateNtoO">Date, new to old</option>
-                                    </select>
+        <!-- Pet Care and Saving Tips -->
+        <section class="my-5 p-lg-0 pt-lg-5 text-center">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+
+                    <!-- Header -->
+                    <div class="pb-3">
+                        <h2 class="text-dark">Pet Care and Saving Tips</h2>
+                        <hr class="w-25 m-auto" style="height: 3px; color: #4D9B36;">
+                    </div>
+                    <!-- Header -->
+
+                    <div class="col-lg-10 col-md-10 col-12 pt-2 text-light">
+                        <div class="accordion shadow-lg text-dark" id="petCareAccordion">
+                            <!-- Question 1 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="question1">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#answer1" aria-expanded="true" aria-controls="answer1">
+                                        How can I adopt a pet?
+                                    </button>
+                                </h2>
+                                <div id="answer1" class="accordion-collapse collapse show" aria-labelledby="question1"
+                                    data-bs-parent="#petCareAccordion">
+                                    <div class="accordion-body">
+                                        Visit shelters or use online platforms to find your perfect pet match. Make sure to
+                                        review the pet's profile and adoption requirements.
+                                    </div>
                                 </div>
                             </div>
-                            <button type="submit" class="btn mt-4 w-75 text-white"
-                                style="background-color: #4D9B36;">Filter</button>
-                        </form>
+                            <!-- Question 1 -->
+
+                            <!-- Question 2 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="question2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#answer2" aria-expanded="false" aria-controls="answer2">
+                                        What should I do if I find an injured pet?
+                                    </button>
+                                </h2>
+                                <div id="answer2" class="accordion-collapse collapse" aria-labelledby="question2"
+                                    data-bs-parent="#petCareAccordion">
+                                    <div class="accordion-body">
+                                        Contact local animal rescue services or veterinarians immediately. Handle the pet
+                                        carefully to avoid causing more harm.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Question 2 -->
+
+                            <!-- Question 3 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="question3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#answer3" aria-expanded="false" aria-controls="answer3">
+                                        How do I take care of a pet at home?
+                                    </button>
+                                </h2>
+                                <div id="answer3" class="accordion-collapse collapse" aria-labelledby="question3"
+                                    data-bs-parent="#petCareAccordion">
+                                    <div class="accordion-body">
+                                        Provide proper food, regular vet visits, and a safe, loving environment. Ensure your
+                                        pet has sufficient exercise and mental stimulation.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Question 3 -->
+
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <!-- Pet Care and Saving Tips -->
+
 
 
 
