@@ -175,7 +175,7 @@
                     <!-- left box -->
                     <div class="col-lg-4 col-md-6 col-12 pt-2 text-light">
                         <div class="card mx-auto shadow-lg" style="width: 18rem;">
-                            <img src="{{ asset('asset/images/drools.svg') }} " class="card-img-top mx-auto d-block"
+                            <img src="{{ asset('assets/images/Drools.svg') }}" class="card-img-top mx-auto d-block"
                                 alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Drools | 3KG</h5>
@@ -189,7 +189,7 @@
                     <!-- center box -->
                     <div class="col-lg-4 col-md-6 col-12 pt-2 text-light">
                         <div class="card mx-auto shadow-lg" style="width: 18rem;">
-                            <img src="{{ asset('asset/images/image 3.svg ') }}" class="card-img-top mx-auto d-block"
+                            <img src="{{ asset('assets/images/Canine.svg') }}" class="card-img-top mx-auto d-block"
                                 alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Canine Creek 4 KG</h5>
@@ -203,7 +203,7 @@
                     <!-- right box -->
                     <div class="col-lg-4 col-md-6 col-12 pt-2 text-light">
                         <div class="card mx-auto shadow-lg" style="width: 18rem;">
-                            <img src="{{ asset('asset/images/image 4.svg') }}" class="card-img-top mx-auto d-block"
+                            <img src="{{ asset('assets/images/Biscork.svg') }}" class="card-img-top mx-auto d-block"
                                 alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Biscork Biscuits</h5>
