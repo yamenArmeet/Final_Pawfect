@@ -64,8 +64,7 @@
                                 alt="Drools 3KG">
                             <div class="card-body">
                                 <h5 class="card-title mb-3">yamen</h5>
-                                <p class="card-text mb-2">Front-End Developer<br>
-                                    team ledr</p>
+                                <p class="card-text mb-2">Front-End Developer team ledr</p>
                                 <a href="#" class="mx-2"><i class="bi bi-linkedin"></i></a>
                                 <a href="#" class="mx-2"><i class="bi bi-envelope-at-fill"></i></a>
                                 <a href="https://wa.me/9620780144284" target="_blank" class="mx-2"><i
@@ -116,6 +115,7 @@
                                 <p class="card-text mb-2">Back-End Developer</p>
                                 <a href="#" class="mx-2"><i class="bi bi-linkedin"></i></a>
                                 <a href="#" class="mx-2"><i class="bi bi-envelope-at-fill"></i></a>
+                                <a href="https://wa.me/785500693" class="mx-2"><i class="bi bi-whatsapp"></i></a>
                             </div>
                         </div>
                     </div>
