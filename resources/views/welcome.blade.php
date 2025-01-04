@@ -47,9 +47,10 @@
 
                     <!-- left box -->
                     <div class="col-lg-4 col-md-5 col-12 pt-2 text-light mb-3">
-                        <div class="card mx-auto shadow-lg">
+                        <div class="card mx-auto shadow-lg  rounded-5">
                             <a href="{{ route('donate') }}">
-                                <img src="{{ asset('assets/images/dogs.jpeg') }}" class="img-fluid">
+                                <img src="{{ asset('assets/images/dog (1).png') }}" class="img-fluid"
+                                    style="shadow: 0px 0px 10px 15px black;">
                                 <h2 class="pt-2">Dogs</h2>
                             </a>
                         </div>
@@ -58,9 +59,9 @@
 
                     <!-- right box -->
                     <div class="col-lg-4 col-md-5 col-12 pt-2 text-light mb-3">
-                        <div class="card mx-auto shadow-lg">
+                        <div class="card mx-auto shadow-lg rounded-5">
                             <a href="{{ route('donate') }}">
-                                <img src="{{ asset('assets/images/cats.jpeg') }}" class="img-fluid">
+                                <img src="{{ asset('assets/images/cat (1).png') }}" class="img-fluid">
                                 <h2 class="pt-2">Cats</h2>
                             </a>
                         </div>
