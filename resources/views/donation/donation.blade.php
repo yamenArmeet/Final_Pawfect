@@ -36,7 +36,7 @@
                             Life Today</a>
                     </div>
                     <div class="col-lg-4 col-12">
-                        <img src="{{ asset('assets/images/400x300.png') }}" class="img-fluid rounded-4 h-lg-50 ">
+                        <img src="{{ asset('assets/images/Home.svg') }}" class="img-fluid rounded-4 h-lg-50 ">
                     </div>
                 </div>
             </div>

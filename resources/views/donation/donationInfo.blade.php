@@ -25,41 +25,41 @@
                     <!-- header -->
 
                     <div class="featured-image mb-3">
-                        <img src="{{ asset('assets/images/xdd.png') }}" class="img-fluid" style="height: 350px;">
+                        <img src="{{ asset('assets/images/Paws.png') }}" class="img-fluid" style="height: 350px;">
                     </div>
                 </div>
                 <!-- end of left box -->
 
                 <!-- start of right box -->
                 <div class="col-md-7 right-box">
-                    {{-- <form action="{{ route('donatePayment') }}" method=""> --}}
-                    <div class="row align-items-center justify-content-center">
-                        <div class="header-text mb-4 text-center">
-                            <h2>Personal Information</h2>
-                        </div>
-                        <div class="input-group mb-4">
-                            <input required type="text" name="FirstName"
-                                class="form-control form-control-lg bg-light fs-6" placeholder="First Name">
-                        </div>
-                        <div class="input-group mb-4">
-                            <input required type="text" name="LastName"
-                                class="form-control form-control-lg bg-light fs-6" placeholder="Last Name">
-                        </div>
-                        <div class="input-group mb-4">
-                            <input required type="text" name="email" class="form-control form-control-lg bg-light fs-6"
-                                placeholder="Email Address">
-                        </div>
-                        <div class="input-group mb-4">
-                            <input type="text" name="PhoneNumber" class="form-control form-control-lg bg-light fs-6"
-                                placeholder="Phone Number" required>
-                        </div>
+                    <form action="" method="">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="header-text mb-4 text-center">
+                                <h2>Personal Information</h2>
+                            </div>
+                            <div class="input-group mb-4">
+                                <input required type="text" name="FirstName"
+                                    class="form-control form-control-lg bg-light fs-6" placeholder="First Name">
+                            </div>
+                            <div class="input-group mb-4">
+                                <input required type="text" name="LastName"
+                                    class="form-control form-control-lg bg-light fs-6" placeholder="Last Name">
+                            </div>
+                            <div class="input-group mb-4">
+                                <input required type="text" name="email"
+                                    class="form-control form-control-lg bg-light fs-6" placeholder="Email Address">
+                            </div>
+                            <div class="input-group mb-4">
+                                <input type="text" name="PhoneNumber" class="form-control form-control-lg bg-light fs-6"
+                                    placeholder="Phone Number" required>
+                            </div>
 
-                        <div class="input-group mt-4">
-                            <button type="submit" class="btn btn-lg w-100 fs-6 text-white"
-                                style="background-color: #4A9833; ">next</button>
+                            <div class="input-group mt-4">
+                                <button type="submit" class="btn btn-lg w-100 fs-6 text-white"
+                                    style="background-color: #4A9833; ">next</button>
 
+                            </div>
                         </div>
-                    </div>
                     </form>
                 </div>
                 <!-- end of right box -->

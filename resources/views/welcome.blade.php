@@ -23,7 +23,7 @@
                         </p>
                     </div>
                     <div class="col-lg-4 col-md-6">
-                        <img class="img-fluid  mb-4 rounded-5 " src="{{ asset('assets/images/400x300.png') }}" />
+                        <img class="img-fluid  mb-4 rounded-5 " src="{{ asset('assets/images/Home.svg') }}" />
                     </div>
                 </div>
             </div>
@@ -60,7 +60,7 @@
                     <div class="col-lg-4 col-md-5 col-12 pt-2 text-light mb-3">
                         <div class="card mx-auto shadow-lg">
                             <a href="{{ route('donate') }}">
-                                <img src="{{ asset('assets/images/download.jpeg') }}" class="img-fluid">
+                                <img src="{{ asset('assets/images/cats.jpeg') }}" class="img-fluid">
                                 <h2 class="pt-2">Cats</h2>
                             </a>
                         </div>
@@ -173,7 +173,7 @@
                     <!-- Header -->
 
                     <!-- left box -->
-                    <div class="col-lg-4 col-md-6 col-12 pt-2 text-light">
+                    <div class="col-xxl-3 col-lg-4 col-md-6 col-12 pt-3 text-light">
                         <div class="card mx-auto shadow-lg" style="width: 18rem;">
                             <img src="{{ asset('assets/images/Drools.svg') }}" class="card-img-top mx-auto d-block"
                                 alt="...">
@@ -187,7 +187,7 @@
                     <!-- left box -->
 
                     <!-- center box -->
-                    <div class="col-lg-4 col-md-6 col-12 pt-2 text-light">
+                    <div class="col-xxl-3 col-lg-4 col-md-6 col-12 pt-3 text-light">
                         <div class="card mx-auto shadow-lg" style="width: 18rem;">
                             <img src="{{ asset('assets/images/Canine.svg') }}" class="card-img-top mx-auto d-block"
                                 alt="...">
@@ -201,7 +201,7 @@
                     <!-- center box -->
 
                     <!-- right box -->
-                    <div class="col-lg-4 col-md-6 col-12 pt-2 text-light">
+                    <div class="col-xxl-3 col-lg-4 col-md-6 col-12 pt-3 text-light">
                         <div class="card mx-auto shadow-lg" style="width: 18rem;">
                             <img src="{{ asset('assets/images/Biscork.svg') }}" class="card-img-top mx-auto d-block"
                                 alt="...">
@@ -214,6 +214,19 @@
                     </div>
                     <!-- right box -->
 
+                    <!-- right box -->
+                    <div class="col-xxl-3 col-lg-4 col-md-6 col-12 pt-3 text-light">
+                        <div class="card mx-auto shadow-lg" style="width: 18rem;">
+                            <img src="{{ asset('assets/images/Biscork.svg') }}" class="card-img-top mx-auto d-block"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Biscork Biscuits</h5>
+                                <p class="card-text">Adult chicken and egg Egg, Chicken Dry Adult Dog Food</p>
+                                <a href="#" class="btn bg-light" style="color:#4D9B36;">Go to Store</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- right box -->
                 </div>
             </div>
         </section>
@@ -234,8 +247,8 @@
                     <div class="col-lg-4 col-md-6 col-12 pt-2 text-light">
                         <div class="card mx-auto shadow-lg" style="width: 18rem; background-color: #4D9B36;">
                             <a href="">
-                                <img src="{{ asset('assets/images/download (1).jpeg') }}"
-                                    class="card-img-top mx-auto d-block" alt="...">
+                                <img src="{{ asset('assets/images/Mainely.jpeg') }}" class="card-img-top mx-auto d-block"
+                                    alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Mainely Mutts Animal Rescue</h5>
                                 </div>
@@ -248,7 +261,7 @@
                     <div class="col-lg-4 col-md-6 col-12 pt-2 text-light">
                         <div class="card mx-auto shadow-lg" style="width: 18rem; background-color: #4D9B36;">
                             <a href="">
-                                <img src="{{ asset('asset/images/download (2).jpeg') }}"
+                                <img src="{{ asset('assets/images/Franklin.jpeg') }}"
                                     class="card-img-top mx-auto d-block" alt="..." style="max-height: 8rem;">
                                 <div class="card-body">
                                     <h5 class="card-title">Franklin County Animal Shelter</h5>
@@ -262,8 +275,8 @@
                     <div class="col-lg-4 col-md-6 col-12 pt-2 text-light">
                         <div class="card mx-auto shadow-lg" style="width: 18rem; background-color: #4D9B36;">
                             <a href="">
-                                <img src="{{ asset('asset/images/download (3).jpeg') }}"
-                                    class="card-img-top mx-auto d-block" alt="...">
+                                <img src="{{ asset('assets/images/Motley.jpeg') }}" class="card-img-top mx-auto d-block"
+                                    alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Motley Mutts Rescue</h5>
                                 </div>

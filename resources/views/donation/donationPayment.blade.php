@@ -23,7 +23,7 @@
                     <!-- header -->
 
                     <div class="featured-image mb-3">
-                        <img src="{{ asset('assets/images/xdd.png') }}" class="img-fluid" style="height: 350px;">
+                        <img src="{{ asset('assets/images/Paws.png') }}" class="img-fluid" style="height: 350px;">
                     </div>
                 </div>
                 <!-- end of left box -->

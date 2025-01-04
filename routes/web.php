@@ -21,7 +21,7 @@ Route::get('/Donate', [TheMainController::class, 'index'])->name('donate');
 Route::get('/DonateInfo', [TheMainController::class, 'DonateInfo'])->name('donateInfo');
 Route::get('/DonatePayment/{shelter}', [TheMainController::class, 'DonatePayment'])->name('donatePayment');
 Route::get('/aboutUs', [TheMainController::class, 'aboutUs'])->name('aboutUs');
-Route::get('/store', [TheMainController::class, 'store'])->name('storePayment ');
+Route::get('/store', [TheMainController::class, 'store'])->name('storePayment');
 Route::get('/Adoption', [TheMainController::class, 'Adoption'])->name('adoption');
 Route::get('/store.card', [TheMainController::class, 'storecard'])->name('storeCard');
 Route::get('/Signup', [TheMainController::class, 'SingUp'])->name('signup');
