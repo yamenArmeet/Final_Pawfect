@@ -41,4 +41,8 @@ class TheMainController extends Controller
     {
         return view('store.store');
     }
+    public function SingUp()
+    {
+        return view('login.SingUp');
+    }
 }

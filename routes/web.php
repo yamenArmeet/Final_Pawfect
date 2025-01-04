@@ -13,15 +13,9 @@ Route::get('/', function () {
 
 
 
-//اول خانه اسم الصفحة بال url
-//ثاني خانه اسم الصفحة بال view
-//ثالث خانه اسم الصفحة بال route
 
 
 
-Route::get('/Signup', function () {
-    return view('login.SingUp');
-})->name('signup');
 
 Route::get('/Donate', [TheMainController::class, 'index'])->name('donate');
 Route::get('/DonateInfo', [TheMainController::class, 'DonateInfo'])->name('donateInfo');
@@ -30,6 +24,7 @@ Route::get('/aboutUs', [TheMainController::class, 'aboutUs'])->name('aboutUs');
 Route::get('/store', [TheMainController::class, 'store'])->name('storePayment ');
 Route::get('/Adoption', [TheMainController::class, 'Adoption'])->name('adoption');
 Route::get('/store.card', [TheMainController::class, 'storecard'])->name('storeCard');
+Route::get('/Signup', [TheMainController::class, 'SingUp'])->name('signup');
 
 
 
