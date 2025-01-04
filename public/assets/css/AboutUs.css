@@ -1,0 +1,134 @@
+body{
+
+    background-color: #EFF1FD;
+}
+
+.rounded-4{
+    border-radius: 20px;
+}
+.rounded-5{
+    border-radius: 30px;
+}
+
+/* nav bar things */
+.navbar .navbar-nav .nav-link {
+    color: black;
+    font-family: "Irish Grover", system-ui;
+}
+
+.sign-btn:hover{
+    text-decoration: none;
+    font-weight: bold;
+}
+.login:hover{
+    font-weight: bold;
+    text-decoration: none;
+}
+/* nav bar things */
+
+
+
+/* button transform */
+a.btn{
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+a.btn:hover{
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05); /* Slightly enlarge */
+}
+/* button transform */
+
+/* Our mission section */
+.Our-mission{
+    background-color: #4D9B36 !important;
+}
+/* Our mission section */
+
+/* Meet the team section */
+.card {
+    width: 18rem; /* Consistent width */
+    height: 20rem; /* Set a consistent height */
+    background-color: #4D9B36; /* Card background color */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute content evenly */
+    align-items: center;
+}
+
+.card img {
+    max-height: 10rem; /* Restrict image height */
+    width: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image fits nicely */
+    margin-top: 1rem;
+}
+
+.card-body {
+    text-align: center; /* Center-align text */
+}
+
+.card-title {
+    font-size: 1.25rem; /* Adjust font size for consistency */
+}
+
+.card a{
+    width: 5rem;
+}
+/* Meet the team section */
+
+
+/* Pet Care and Saving Tips section */
+
+/* Default accordion button styles */
+.accordion-button {
+    color: #000; /* Default text color */
+    background-color: #f8f9fa; /* Default background color */
+    border-color: #4D9B36; /* Default border color */
+}
+
+/* Hover state */
+.accordion-button:hover {
+    color: #fff; /* Text color on hover */
+    background-color: #4D9B36; /* Background color on hover */
+    border-color: #4D9B36; /* Border color on hover */
+}
+
+/* Active state */
+.accordion-button:not(.collapsed) {
+    color: #fff; /* Text color when active */
+    background-color: #4D9B36; /* Background color when active */
+    border-color: #4D9B36; /* Border color when active */
+}
+
+/* Change arrow color when active */
+.accordion-button:not(.collapsed) svg {
+    fill: #fff !important; /* Change arrow icon color to white */
+}
+
+/* Focus state */
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem rgba(77, 155, 54, 0.25); /* Green focus outline */
+    border-color: #4D9B36; /* Border color on focus */
+}
+/* Pet Care and Saving Tips section */
+
+
+/* Footer section */
+footer {
+    background-color: #4D9B36;
+}
+
+a i{
+    font-size: 2rem;
+}
+
+a {
+    color: white;  /* Default green color */
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F7C240;  /* Bright Yellow on hover */
+}
+/* Footer section */

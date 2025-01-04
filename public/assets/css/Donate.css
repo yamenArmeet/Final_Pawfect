@@ -1,0 +1,99 @@
+body{
+
+    background-color: #EFF1FD;
+}
+
+.rounded-4{
+    border-radius: 20px;
+}
+.rounded-5{
+    border-radius: 30px;
+}
+
+/* nav bar things */
+.navbar .navbar-nav .nav-link {
+    color: black;
+    font-family: "Irish Grover", system-ui;
+}
+
+.sign-btn:hover{
+    text-decoration: none;
+    font-weight: bold;
+}
+.login:hover{
+    font-weight: bold;
+    text-decoration: none;
+}
+/* nav bar things */
+
+
+
+/* button transform */
+a.btn{
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+a.btn:hover{
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05); /* Slightly enlarge */
+}
+/* button transform */
+
+/* Our mission section */
+.Rescue{
+    background-color: #4D9B36 !important;
+}
+/* Our mission section */
+
+/* Meet the team section */
+.card {
+    width: 18rem; /* Consistent width */
+    height: auto; /* Set a consistent height */
+    background-color: #4D9B36; /* Card background color */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute content evenly */
+    align-items: center;
+}
+
+.card img {
+    max-height: 10rem; /* Restrict image height */
+    width: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image fits nicely */
+    margin-top: 1rem;
+}
+
+.card-body {
+    text-align: center; /* Center-align text */
+}
+
+.card-title {
+    font-size: 1.25rem; /* Adjust font size for consistency */
+}
+
+/* Meet the team section */
+
+
+/* Footer section */
+footer {
+    background-color: #4D9B36;
+}
+
+p i{
+    font-size: 20px;
+}
+
+a i{
+    font-size: 26px;
+}
+
+a {
+    color: white;  /* Default green color */
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F7C240;  /* Bright Yellow on hover */
+}
+/* Footer section */

@@ -1,0 +1,92 @@
+body{
+    background-color: #EFF1FD;
+}
+
+.rounded-4{
+    border-radius: 20px;
+}
+.rounded-5{
+    border-radius: 30px;
+}
+
+/* button transform */
+a.btn{
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+a.btn:hover{
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05); /* Slightly enlarge */
+}
+/* button transform */
+
+.card {
+    height: 24rem;
+    width: 18rem; /* Consistent width */
+    background-color: #4D9B36; /* Card background color */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute content evenly */
+    align-items: center;
+}
+
+.card img {
+    max-height: 10rem; /* Restrict image height */
+    width: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image fits nicely */
+    margin-top: 1rem;
+}
+
+
+.card-title {
+    font-size: 1.25rem; /* Adjust font size for consistency */
+}
+
+
+/* nav bar things*/
+.navbar .navbar-nav .nav-link {
+    color: black;
+    font-family: "Irish Grover", system-ui;
+}
+
+.sign-btn:hover{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.login:hover{
+    color: #22BB21;
+    font-weight: bold;
+    text-decoration: none;
+}
+/* nav bar things*/
+
+
+/* Home section */
+.Home{
+    background-color: #4D9B36 !important;
+}
+/* Home section */
+
+
+
+
+/* Footer section */
+footer {
+    background-color: #4D9B36;
+}
+
+a i{
+    font-size: 2rem;
+}
+
+a {
+    color: white;  /* Default green color */
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F7C240;  /* Bright Yellow on hover */
+}
+/* Footer section */

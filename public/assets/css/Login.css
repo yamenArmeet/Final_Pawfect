@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #EFF1FD;
+    font-size: 16px;
+}
+
+
+.box-area{
+    width: 930px;
+}
+
+
+/* right box things */
+.right-box{
+    padding: 40px 30px 40px 40px;
+}
+/* right box things */
+
+
+/* ::placeholder{
+    font-size: 16px;
+} */
+
+.rounded-4{
+    border-radius: 20px;
+}
+.rounded-5{
+    border-radius: 30px;
+}
+
+.btn-login{
+    background-color: #4A9833;
+}
+
+.input-group{
+    width: 85%;
+}
+
+
+/* button transform */
+button{
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+button:hover{
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05); /* Slightly enlarge */
+}
+
+a.btn{
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+a.btn:hover{
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05); /* Slightly enlarge */
+}
+/* button transform */
+
+.background-animation {
+    background: linear-gradient(to right, #377825, #5ac34c, #377825);
+    background-size: 200% 100%;
+    background-position: left;
+    animation: gradientMove 3s ease infinite;
+}
+
+@keyframes gradientMove {
+    50% {
+        background-position: left;
+    }
+    50% {
+        background-position: center;
+    }
+    50% {
+        background-position: right;
+    }
+}
+
+
+/*small screens*/
+@media screen and (max-width: 768px){
+
+    .box-area{
+        margin: 0 10px;
+    }
+    .left-box{
+        display: none !important;
+    }
+    .right-box{
+        padding: 20px;
+    }
+}
+/*small screens*/
+
+
+/*md screens*/
+@media screen and (max-width: 992px){
+
+    .img{
+        height: 85% !important;
+    }
+}
+/*md screens*/
