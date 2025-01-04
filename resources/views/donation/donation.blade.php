@@ -122,7 +122,7 @@
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
-                        <div class="modal-header">
+                        <div class="modal-header text-white" style="background-color: #4D9B36;">
                             <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
@@ -140,6 +140,88 @@
                 </div>
             </div>
         </section>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header text-white" style="background-color: #4D9B36;">
+                        <h5 class="modal-title" id="exampleModalLabel">Find Your Perfect Match</h5>
+                        <button type="button" class="btn text-white" data-bs-dismiss="modal" aria-label="Close">
+                            <i class="bi bi-x-lg" style="font-size: 20px;"></i>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-6">
+                                    <p class="mb-2 fs-5">Pet Type</p>
+                                    <select class="form-select">
+                                        <option selected value="any">Any</option>
+                                        <option value="cats">Cats</option>
+                                        <option value="dogs">Dogs</option>
+                                    </select>
+                                </div>
+                                <div class="col-6">
+                                    <p class="mb-2 fs-5">Age</p>
+                                    <select class="form-select">
+                                        <option selected value="any">Any</option>
+                                        <option value="puppy">Puppy</option>
+                                        <option value="young">Young</option>
+                                        <option value="adult">Adult</option>
+                                        <option value="senior">Senior</option>
+                                    </select>
+                                </div>
+                                <div class="col-6 mt-4">
+                                    <p class="mb-2 fs-5">Color</p>
+                                    <select class="form-select">
+                                        <option selected value="any">Any</option>
+                                        <option value="black">Black</option>
+                                        <option value="white">White</option>
+                                        <option value="brown">Brown</option>
+                                        <option value="graySilver">Gray/Silver</option>
+                                        <option value="goldenOrange">Golden/Orange</option>
+
+                                    </select>
+                                </div>
+                                <div class="col-6 mt-4">
+                                    <p class="mb-2 fs-5">Gender</p>
+                                    <select class="form-select">
+                                        <option selected value="any">Any</option>
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+                                    </select>
+                                </div>
+                                <div class="col-6 mt-4">
+                                    <p class="mb-2 fs-5">Size</p>
+                                    <select class="form-select">
+                                        <option selected value="any">Any</option>
+                                        <option value="small">Small (0-25 lbs)</option>
+                                        <option value="medium">Medium (26-60 lbs)</option>
+                                        <option value="large">Large (61-100 lbs)</option>
+                                        <option value="extraLarge">Extra Large (101 lbs or more)
+                                        </option>
+                                    </select>
+                                </div>
+                                <div class="col-6 mt-4">
+                                    <p class="mb-2 fs-5">Breed</p>
+                                    <select class="form-select">
+                                        <option selected value="any">Any</option>
+                                        <option value="bestSelling">Best selling</option>
+                                        <option value="AlpAtoZ">Alphabetically, A-Z</option>
+                                        <option value="AlpZtoA">Alphabetically, Z-A</option>
+                                        <option value="priceLtoH">Price, low to high</option>
+                                        <option value="priceHtoL">Price, high to low</option>
+                                        <option value="dateOtoN">Date, old to new</option>
+                                        <option value="dateNtoO">Date, new to old</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn mt-4 w-75 text-white"
+                                style="background-color: #4D9B36;">Filter</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
