@@ -77,41 +77,6 @@ a.btn:hover{
 /* Meet the team section */
 
 
-/* Pet Care and Saving Tips section */
-
-/* Default accordion button styles */
-.accordion-button {
-    color: #000; /* Default text color */
-    background-color: #f8f9fa; /* Default background color */
-    border-color: #4D9B36; /* Default border color */
-}
-
-/* Hover state */
-.accordion-button:hover {
-    color: #fff; /* Text color on hover */
-    background-color: #4D9B36; /* Background color on hover */
-    border-color: #4D9B36; /* Border color on hover */
-}
-
-/* Active state */
-.accordion-button:not(.collapsed) {
-    color: #fff; /* Text color when active */
-    background-color: #4D9B36; /* Background color when active */
-    border-color: #4D9B36; /* Border color when active */
-}
-
-/* Change arrow color when active */
-.accordion-button:not(.collapsed) svg {
-    fill: #fff !important; /* Change arrow icon color to white */
-}
-
-/* Focus state */
-.accordion-button:focus {
-    box-shadow: 0 0 0 0.25rem rgba(77, 155, 54, 0.25); /* Green focus outline */
-    border-color: #4D9B36; /* Border color on focus */
-}
-/* Pet Care and Saving Tips section */
-
 
 /* Footer section */
 footer {
