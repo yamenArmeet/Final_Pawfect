@@ -47,19 +47,21 @@
 
                     <!-- left box -->
                     <div class="col-lg-4 col-md-5 col-12 pt-2 text-light mb-3">
-                        <div class="card mx-auto shadow-lg  rounded-5">
+                        <div class="card mx-auto  rounded-5"
+                            style="box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5); border-radius: 15px;">
                             <a href="{{ route('donate') }}">
-                                <img src="{{ asset('assets/images/dog (1).png') }}" class="img-fluid"
-                                    style="shadow: 0px 0px 10px 15px black;">
+                                <img src="{{ asset('assets/images/dog (1).png') }}" class="img-fluid">
                                 <h2 class="pt-2">Dogs</h2>
                             </a>
                         </div>
                     </div>
+
                     <!-- left box -->
 
                     <!-- right box -->
                     <div class="col-lg-4 col-md-5 col-12 pt-2 text-light mb-3">
-                        <div class="card mx-auto shadow-lg rounded-5">
+                        <div class="card mx-auto  rounded-5"
+                            style="box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5); border-radius: 15px;">
                             <a href="{{ route('donate') }}">
                                 <img src="{{ asset('assets/images/cat (1).png') }}" class="img-fluid">
                                 <h2 class="pt-2">Cats</h2>
@@ -90,7 +92,8 @@
 
                     <!-- left box -->
                     <div class="col-lg-4 col-md-5 col-12  text-dark mb-3">
-                        <div class="card mx-auto pt-4 shadow-lg">
+                        <div class="card mx-auto pt-4 "
+                            style="box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5); border-radius: 15px;">
                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
                                 class="bi bi-cash-coin card-img-top text-light" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd"
@@ -121,7 +124,8 @@
 
                     <!-- right box -->
                     <div class="col-lg-4 col-md-5 col-12 text-dark mb-3">
-                        <div class="card mx-auto pt-4 shadow-lg">
+                        <div class="card mx-auto pt-4 "
+                            style="box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5); border-radius: 15px;">
                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
                                 class="bi bi-heart-pulse card-img-top text-light" viewBox="0 0 16 16">
                                 <path
