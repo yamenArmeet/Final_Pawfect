@@ -127,7 +127,7 @@
                             <img src="https://via.placeholder.com/400x300" class="card-img-top mx-auto d-block"
                                 alt="Drools 3KG">
                             <div class="card-body">
-                                <h5 class="card-title mb-3">edd al manek 5</h5>
+                                <h5 class="card-title mb-3">edd 5</h5>
                                 <p class="card-text mb-2">Back-End Developer</p>
                                 <a href="#" class="mx-2"><i class="bi bi-linkedin"></i></a>
                                 <a href="#" class="mx-2"><i class="bi bi-envelope-at-fill"></i></a>
