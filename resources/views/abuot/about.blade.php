@@ -100,6 +100,7 @@
                                 <p class="card-text mb-2">Back-End Developer</p>
                                 <a href="#" class="mx-2"><i class="bi bi-linkedin"></i></a>
                                 <a href="#" class="mx-2"><i class="bi bi-envelope-at-fill"></i></a>
+                                <a href="https://wa.me/787821748" class="mx-2"><i class="bi bi-whatsapp"></i></a>
                             </div>
                         </div>
                     </div>
