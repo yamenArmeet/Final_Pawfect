@@ -7,9 +7,21 @@ use App\Http\Controllers\TheMainController;
 use App\Models\Shelter;
 use Illuminate\Support\Facades\Route;
 
+
 Route::get('/', function () {
     return view('welcome');
 })->name('home');
+
+
+Route::get('/shelter-about', function () {
+    return view('shelter-blog.about');
+})->name('shelter.about');
+
+
+
+Route::get('/shelter', function () {
+    return view('shelter-blog.index');
+})->name('shelter.index');
 
 
 

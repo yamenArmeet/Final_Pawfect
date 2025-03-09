@@ -9,12 +9,12 @@
         <!-- navbar -->
 
         <!-- Home -->
-        <section class="Home bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start" id="Home">
+        <section class="p-5 text-center Home bg-dark text-light p-lg-0 pt-lg-5 text-sm-start" id="Home">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-8 col-md-6">
                         <h1>Adopt a pet and give them home</h1>
-                        <p class="lead my-4 ">
+                        <p class="my-4 lead ">
                             We focus on providing shelters and adopters with the latest and most
                             efficient tools for managing pet adoptions and supplies.
                             Our goal is to simplify the process,empowering users with
@@ -23,7 +23,7 @@
                         </p>
                     </div>
                     <div class="col-lg-4 col-md-6">
-                        <img class="img-fluid  mb-4 rounded-5 " src="{{ asset('assets/images/Home.svg') }}" />
+                        <img class="mb-4 img-fluid rounded-5 " src="{{ asset('assets/images/Home.svg') }}" />
                     </div>
                 </div>
             </div>
@@ -31,14 +31,14 @@
         <!-- Home -->
 
         <!-- Search -->
-        <section class="Search my-5 p-lg-0 pt-lg-5 text-center" id="Search">
+        <section class="my-5 text-center Search p-lg-0 pt-lg-5" id="Search">
             <div class="container">
                 <div class="row align-items-center justify-content-sm-evenly justify-content-center ">
 
                     <!-- header -->
                     <div class="pb-3">
                         <h1 class="text-dark">Find Your Perfect Match</h1>
-                        <hr class="w-25 m-auto" style="height: 3px; color: #4D9B36;">
+                        <hr class="m-auto w-25" style="height: 3px; color: #4D9B36;">
                     </div>
                     <p class="lead text-dark">
                         Discover pets that suit your lifestyle and needs effortlessly with our easy-to-use search feature.
@@ -46,8 +46,8 @@
                     <!-- header -->
 
                     <!-- left box -->
-                    <div class="col-lg-4 col-md-5 col-12 pt-2 text-light mb-3">
-                        <div class="card mx-auto  rounded-5"
+                    <div class="pt-2 mb-3 col-lg-4 col-md-5 col-12 text-light">
+                        <div class="mx-auto card rounded-5"
                             style="box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5); border-radius: 15px;">
                             <a href="{{ route('donate') }}">
                                 <img src="{{ asset('assets/images/dog (1).png') }}" class="img-fluid">
@@ -59,8 +59,8 @@
                     <!-- left box -->
 
                     <!-- right box -->
-                    <div class="col-lg-4 col-md-5 col-12 pt-2 text-light mb-3">
-                        <div class="card mx-auto  rounded-5"
+                    <div class="pt-2 mb-3 col-lg-4 col-md-5 col-12 text-light">
+                        <div class="mx-auto card rounded-5"
                             style="box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5); border-radius: 15px;">
                             <a href="{{ route('donate') }}">
                                 <img src="{{ asset('assets/images/cat (1).png') }}" class="img-fluid">
@@ -76,13 +76,13 @@
         <!-- Search -->
 
         <!-- Rescue -->
-        <section class="Rescue my-5 p-lg-0 pt-lg-5 text-center" id="Rescue">
+        <section class="my-5 text-center Rescue p-lg-0 pt-lg-5" id="Rescue">
             <div class="container">
                 <div class="row align-items-center justify-content-sm-evenly justify-content-center ">
                     <!-- Header -->
                     <div class="pb-3">
                         <h1 class="text-dark">Donate and Rescue</h1>
-                        <hr class="w-25 m-auto" style="height: 3px; color: #4D9B36;">
+                        <hr class="m-auto w-25" style="height: 3px; color: #4D9B36;">
                     </div>
                     <p class="lead text-dark">
                         Your donation can make a life-saving difference. Join us in our mission to rescue, care for, and
@@ -91,8 +91,8 @@
                     <!-- Header -->
 
                     <!-- left box -->
-                    <div class="col-lg-4 col-md-5 col-12  text-dark mb-3">
-                        <div class="card mx-auto pt-4 "
+                    <div class="mb-3 col-lg-4 col-md-5 col-12 text-dark">
+                        <div class="pt-4 mx-auto card "
                             style="box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5); border-radius: 15px;">
                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
                                 class="bi bi-cash-coin card-img-top text-light" viewBox="0 0 16 16">
@@ -109,7 +109,7 @@
                                 <p class="card-text">
                                     Make a donation to support our ongoing efforts in rescuing and caring for pets in need.
                                 </p>
-                                <a href="#" class="btn btn-light text-center mt-3">
+                                <a href="#" class="mt-3 text-center btn btn-light">
                                     Donate Now
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                         fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
@@ -123,8 +123,8 @@
                     <!-- left box -->
 
                     <!-- right box -->
-                    <div class="col-lg-4 col-md-5 col-12 text-dark mb-3">
-                        <div class="card mx-auto pt-4 "
+                    <div class="mb-3 col-lg-4 col-md-5 col-12 text-dark">
+                        <div class="pt-4 mx-auto card "
                             style="box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5); border-radius: 15px;">
                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
                                 class="bi bi-heart-pulse card-img-top text-light" viewBox="0 0 16 16">
@@ -138,7 +138,7 @@
                                 <p class="card-text">
                                     Reach out to us to help rescue and care for pets in need. So, we can help all pets.
                                 </p>
-                                <a href="#" class="btn btn-light text-center mt-3">
+                                <a href="#" class="mt-3 text-center btn btn-light">
                                     Rescue Now
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                         fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
@@ -157,16 +157,16 @@
         <!-- Rescue -->
 
         <!-- Store -->
-        <section class="Store my-5 p-lg-0 pt-lg-5 text-center" id="Store">
+        <section class="my-5 text-center Store p-lg-0 pt-lg-5" id="Store">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
 
                     <!-- Header -->
                     <div class="pb-3">
                         <h1 class="text-dark">Store</h1>
-                        <hr class="w-25 m-auto" style="height: 3px; color: #4D9B36;">
+                        <hr class="m-auto w-25" style="height: 3px; color: #4D9B36;">
                     </div>
-                    <div class="row align-items-center mb-4">
+                    <div class="mb-4 row align-items-center">
                         <div class="col text-start">
                             <h3>Most Popular Product</h3>
                         </div>
@@ -178,9 +178,9 @@
                     <!-- Header -->
 
                     <!-- left box -->
-                    <div class="col-xxl-3 col-lg-4 col-md-6 col-12 pt-3 text-light">
-                        <div class="card mx-auto shadow-lg" style="width: 18rem;">
-                            <img src="{{ asset('assets/images/Drools.svg') }}" class="card-img-top mx-auto d-block"
+                    <div class="pt-3 col-xxl-3 col-lg-4 col-md-6 col-12 text-light">
+                        <div class="mx-auto shadow-lg card" style="width: 18rem;">
+                            <img src="{{ asset('assets/images/Drools.svg') }}" class="mx-auto card-img-top d-block"
                                 alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Drools | 3KG</h5>
@@ -192,9 +192,9 @@
                     <!-- left box -->
 
                     <!-- center box -->
-                    <div class="col-xxl-3 col-lg-4 col-md-6 col-12 pt-3 text-light">
-                        <div class="card mx-auto shadow-lg" style="width: 18rem;">
-                            <img src="{{ asset('assets/images/Canine.svg') }}" class="card-img-top mx-auto d-block"
+                    <div class="pt-3 col-xxl-3 col-lg-4 col-md-6 col-12 text-light">
+                        <div class="mx-auto shadow-lg card" style="width: 18rem;">
+                            <img src="{{ asset('assets/images/Canine.svg') }}" class="mx-auto card-img-top d-block"
                                 alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Canine Creek 4 KG</h5>
@@ -206,9 +206,9 @@
                     <!-- center box -->
 
                     <!-- right box -->
-                    <div class="col-xxl-3 col-lg-4 col-md-6 col-12 pt-3 text-light">
-                        <div class="card mx-auto shadow-lg" style="width: 18rem;">
-                            <img src="{{ asset('assets/images/Biscork.svg') }}" class="card-img-top mx-auto d-block"
+                    <div class="pt-3 col-xxl-3 col-lg-4 col-md-6 col-12 text-light">
+                        <div class="mx-auto shadow-lg card" style="width: 18rem;">
+                            <img src="{{ asset('assets/images/Biscork.svg') }}" class="mx-auto card-img-top d-block"
                                 alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Biscork Biscuits</h5>
@@ -220,9 +220,9 @@
                     <!-- right box -->
 
                     <!-- right box -->
-                    <div class="col-xxl-3 col-lg-4 col-md-6 col-12 pt-3 text-light">
-                        <div class="card mx-auto shadow-lg" style="width: 18rem;">
-                            <img src="{{ asset('assets/images/Biscork.svg') }}" class="card-img-top mx-auto d-block"
+                    <div class="pt-3 col-xxl-3 col-lg-4 col-md-6 col-12 text-light">
+                        <div class="mx-auto shadow-lg card" style="width: 18rem;">
+                            <img src="{{ asset('assets/images/Biscork.svg') }}" class="mx-auto card-img-top d-block"
                                 alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Biscork Biscuits</h5>
@@ -238,21 +238,21 @@
         <!-- Store -->
 
         <!-- shelters -->
-        <section class="Shelters my-5 p-lg-0 pt-lg-5 text-center" id="Shelters">
+        <section class="my-5 text-center Shelters p-lg-0 pt-lg-5" id="Shelters">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <!-- Header -->
                     <div class="pb-3">
                         <h1 class="text-dark">Search for Animal Shelters</h1>
-                        <hr class="w-25 m-auto" style="height: 3px; color: #4D9B36;">
+                        <hr class="m-auto w-25" style="height: 3px; color: #4D9B36;">
                     </div>
                     <!-- Header -->
 
                     <!-- left box -->
-                    <div class="col-lg-4 col-md-6 col-12 pt-2 text-light">
-                        <div class="card mx-auto shadow-lg" style="width: 18rem; background-color: #4D9B36;">
+                    <div class="pt-2 col-lg-4 col-md-6 col-12 text-light">
+                        <div class="mx-auto shadow-lg card" style="width: 18rem; background-color: #4D9B36;">
                             <a href="">
-                                <img src="{{ asset('assets/images/Mainely.jpeg') }}" class="card-img-top mx-auto d-block"
+                                <img src="{{ asset('assets/images/Mainely.jpeg') }}" class="mx-auto card-img-top d-block"
                                     alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Mainely Mutts Animal Rescue</h5>
@@ -263,11 +263,11 @@
                     <!-- left box -->
 
                     <!-- center box -->
-                    <div class="col-lg-4 col-md-6 col-12 pt-2 text-light">
-                        <div class="card mx-auto shadow-lg" style="width: 18rem; background-color: #4D9B36;">
+                    <div class="pt-2 col-lg-4 col-md-6 col-12 text-light">
+                        <div class="mx-auto shadow-lg card" style="width: 18rem; background-color: #4D9B36;">
                             <a href="">
                                 <img src="{{ asset('assets/images/Franklin.jpeg') }}"
-                                    class="card-img-top mx-auto d-block" alt="..." style="max-height: 8rem;">
+                                    class="mx-auto card-img-top d-block" alt="..." style="max-height: 8rem;">
                                 <div class="card-body">
                                     <h5 class="card-title">Franklin County Animal Shelter</h5>
                                 </div>
@@ -277,10 +277,10 @@
                     <!-- center box -->
 
                     <!-- right box -->
-                    <div class="col-lg-4 col-md-6 col-12 pt-2 text-light">
-                        <div class="card mx-auto shadow-lg" style="width: 18rem; background-color: #4D9B36;">
+                    <div class="pt-2 col-lg-4 col-md-6 col-12 text-light">
+                        <div class="mx-auto shadow-lg card" style="width: 18rem; background-color: #4D9B36;">
                             <a href="">
-                                <img src="{{ asset('assets/images/Motley.jpeg') }}" class="card-img-top mx-auto d-block"
+                                <img src="{{ asset('assets/images/Motley.jpeg') }}" class="mx-auto card-img-top d-block"
                                     alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Motley Mutts Rescue</h5>
@@ -295,22 +295,24 @@
         </section>
         <!-- shelters -->
 
-        <!-- Popular Questions -->
-        <section class="PQ my-5 p-lg-0 pt-lg-5 text-center" id="Popular Questions">
+        <!-- Popular Questions
+        need to re-create
+        -->
+        <section class="my-5 text-center PQ p-lg-0 pt-lg-5" id="Popular Questions">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <!-- Header -->
                     <div class="pb-3">
                         <h1 class="text-dark">Popular Questions</h1>
-                        <hr class="w-25 m-auto" style="height: 3px; color: #4D9B36;">
+                        <hr class="m-auto w-25" style="height: 3px; color: #4D9B36;">
                     </div>
                     <!-- Header -->
 
                     <!-- Accordion Content -->
-                    <div class="col-lg-10 col-md-10 col-12 pt-2 text-light">
-                        <div class="accordion shadow-lg" id="accordionExample">
+                    <div class="pt-2 col-lg-6 col-md-6 col-12 text-light">
+                        <div class=" accordion" id="accordionExample">
                             <!-- Accordion Item 1 -->
-                            <div class="accordion-item text-dark">
+                            <div class="my-3 accordion-item text-dark">
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
