@@ -66,7 +66,7 @@
                             <input type="text" id="email_address" name="email"
                                 class="form-control form-control-lg bg-light fs-6" required placeholder="Email Address">
                             @if ($errors->has('email'))
-                                <span class="text-danger">{{ $errors->first('email') }}</span>
+                                <br> <span class="text-danger">{{ $errors->first('email') }}</span>
                             @endif
                         </div>
 

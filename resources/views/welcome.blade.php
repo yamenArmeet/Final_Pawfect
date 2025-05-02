@@ -296,8 +296,8 @@
         <!-- shelters -->
 
         <!-- Popular Questions
-        need to re-create
-        -->
+            need to re-create
+            -->
         <section class="my-5 text-center PQ p-lg-0 pt-lg-5" id="Popular Questions">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
@@ -309,10 +309,10 @@
                     <!-- Header -->
 
                     <!-- Accordion Content -->
-                    <div class="pt-2 col-lg-6 col-md-6 col-12 text-light">
+                    <div class="pt-2 col-lg-8 col-md-6 col-12 text-light">
                         <div class=" accordion" id="accordionExample">
                             <!-- Accordion Item 1 -->
-                            <div class="my-3 accordion-item text-dark">
+                            <div class="accordion-item text-dark">
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
