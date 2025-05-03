@@ -41,13 +41,13 @@
                             <input type="password" name="password" id="password"
                                 class="form-control form-control-lg bg-light fs-6" placeholder="Password" required>
                             @if ($errors->has('emailPassword'))
-                            <span class="text-danger">{{ $errors->first('emailPassword') }}</span>
+                                <span class="text-danger">{{ $errors->first('emailPassword') }}</span>
                             @endif
                         </div>
 
 
                         <div class="row text-start mb-4" style="width:90%">
-                            <small><a href="../password/password.html" style="color:#4A9833">Forgot
+                            <small><a href="{{ route('CheckEmail') }}" style="color:#4A9833">Forgot
                                     Password?</a></small>
                         </div>
                         <div class="row text-start mb-4" style="width:90%">
@@ -65,21 +65,21 @@
                     </div> --}}
 
 
+                    </div>
+                </form>
             </div>
-            </form>
-        </div>
-        <!-- end of left box -->
+            <!-- end of left box -->
 
-        <!-- start of right box -->
-        <div
-            class="col-lg-6 col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box background-animation">
-            <img src="{{ asset('assets/images/Dogs and Cats.png') }}" class="img"
-                style="width: 100%; height: 100%;">
-        </div>
-        <!-- end of right box -->
+            <!-- start of right box -->
+            <div
+                class="col-lg-6 col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box background-animation">
+                <img src="{{ asset('assets/images/Dogs and Cats.png') }}" class="img"
+                    style="width: 100%; height: 100%;">
+            </div>
+            <!-- end of right box -->
 
-    </div>
-    <!-- end of row -->
+        </div>
+        <!-- end of row -->
 
     </div>
     <!-- end of container -->

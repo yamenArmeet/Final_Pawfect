@@ -39,33 +39,6 @@
                         <h1 class="text-dark">Store</h1>
                         <hr class="w-25 m-auto" style="height: 3px; color: #4D9B36;">
                     </div>
-
-
-                    <form action="" class="row d-flex justify-content-center align-items-center">
-                        <div class="col-6 d-flex flex-column align-items-center flex-xl-row justify-content-xl-center">
-                            <p class="mb-1 me-1 fw-bold text-center" style="font-size: 19px;">Category by:</p>
-                            <select class="form-select w-75">
-                                <option selected>Open this select menu</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-                        </div>
-
-                        <div class="col-6 d-flex flex-column align-items-center flex-xl-row justify-content-xl-center">
-                            <p class="mb-1 me-1 fw-bold text-center" style="font-size: 19px;">Sort by:</p>
-                            <select class="form-select w-75">
-                                <option selected value="featured">Featured</option>
-                                <option value="bestSelling">Best selling</option>
-                                <option value="AlpAtoZ">Alphabetically, A-Z</option>
-                                <option value="AlpZtoA">Alphabetically, Z-A</option>
-                                <option value="priceLtoH">Price, low to high</option>
-                                <option value="priceHtoL">Price, high to low</option>
-                                <option value="dateOtoN">Date, old to new</option>
-                                <option value="dateNtoO">Date, new to old</option>
-                            </select>
-                        </div>
-                    </form>
                     <!-- Header -->
 
                     <!-- First item -->
@@ -134,8 +107,8 @@
                                         <button class="btn w-25 bg-white btn-outline-dark" type="button"
                                             id="increment">+</button>
                                     </div>
-                                    <a href="#" class="btn bg-light text-center ms-3 w-75"
-                                        style="color:#4D9B36;">Add to cart</a>
+                                    <a href="#" class="btn bg-light text-center ms-3 w-75" style="color:#4D9B36;">Add
+                                        to cart</a>
                                 </form>
                             </div>
                         </div>
@@ -334,7 +307,9 @@
 
 
 
-
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
 
         <script>
             // JavaScript for increment and decrement functionality

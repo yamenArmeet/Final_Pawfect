@@ -15,11 +15,9 @@
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
                     <!-- Home Dropdown -->
-                    @if (Route::currentRouteName() !== 'home')
-                        <a class="nav-link" href="{{ route('home') }}">
-                            Home
-                        </a>
-                    @endif
+                    <a class="nav-link" href="{{ route('home') }}">
+                        Home
+                    </a>
 
                     <!-- Home Dropdown -->
 
@@ -37,11 +35,10 @@
                     <!-- Search Dropdown -->
 
                     <!-- Rescue Dropdown -->
-                    @if (Route::currentRouteName() !== 'donate')
-                        <a class="nav-link" href="{{ route('donate') }}">
-                            Rescue
-                        </a>
-                    @endif
+                    <a class="nav-link" href="{{ route('donate') }}">
+                        Rescue
+                    </a>
+
 
                     <!-- Rescue Dropdown -->
 
@@ -53,17 +50,17 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="{{ route('storeCard') }}">Store</a>
-                            <a class="dropdown-item" href="#">My cart</a>
+                            <a class="dropdown-item" href="{{ route('StoreCart') }}">My cart</a>
                         </div>
                     </li>
                     <!-- Store Dropdown -->
 
                     <!-- About us Dropdown -->
-                    @if (Route::currentRouteName() !== 'aboutUs')
-                        <a class="nav-link" href="{{ route('aboutUs') }}">
-                            About Us
-                        </a>
-                    @endif
+
+                    <a class="nav-link" href="{{ route('aboutUs') }}">
+                        About Us
+                    </a>
+
 
                     <!-- Home Dropdown -->
                 </ul>

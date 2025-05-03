@@ -24,8 +24,24 @@ Route::get('/shelter', function () {
 })->name('shelter.index');
 
 
+Route::get('/CheckEmail', function () {
+    return view('login.CheckEmail');
+})->name('CheckEmail');
 
 
+Route::get('/CheckOTP', function () {
+    return view('login.CheckOTP');
+})->name('CheckOTP');
+
+
+Route::get('/ChangePassword', function () {
+    return view('login.ChangePassword');
+})->name('ChangePassword');
+
+
+Route::get('/StoreCart', function () {
+    return view('store.Cart');
+})->name('StoreCart');
 
 
 
