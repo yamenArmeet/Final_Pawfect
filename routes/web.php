@@ -43,6 +43,9 @@ Route::get('/StoreCart', function () {
     return view('store.Cart');
 })->name('StoreCart');
 
+Route::get('/ShelterInfo', function () {
+    return view('shelterInfo');
+})->name('ShelterInfo');
 
 
 Route::get('/Donate', [TheMainController::class, 'index'])->name('donate');
