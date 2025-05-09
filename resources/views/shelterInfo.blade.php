@@ -12,162 +12,159 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
     <link rel="stylesheet" href="ShelterInfo.css" />
-    <style>
-        body {
-
-            background-color: #EFF1FD;
-        }
-
-        .rounded-4 {
-            border-radius: 20px;
-        }
-
-        .rounded-5 {
-            border-radius: 30px;
-        }
-
-        /* nav bar things */
-        .navbar .navbar-nav .nav-link {
-            color: black;
-            font-family: "Irish Grover", system-ui;
-        }
-
-        .sign-btn:hover {
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .login:hover {
-            font-weight: bold;
-            text-decoration: none;
-        }
-
-        /* nav bar things */
-
-
-
-        /* button transform */
-        a.btn {
-            transition: box-shadow 0.3s ease, transform 0.3s ease;
-        }
-
-        a.btn:hover {
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-            transform: scale(1.05);
-            /* Slightly enlarge */
-        }
-
-        /* button transform */
-
-
-        /* Meet the team section */
-        .card {
-            width: auto;
-            /* Consistent width */
-            height: auto;
-            /* Set a consistent height */
-            background-color: #4D9B36;
-            /* Card background color */
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            /* Distribute content evenly */
-            align-items: center;
-            padding-top: 0;
-            overflow: hidden;
-        }
-
-        div.card {
-            transition: box-shadow 0.3s ease, transform 0.3s ease;
-        }
-
-        div.card:hover {
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-            transform: scale(1.02);
-        }
-
-        .card img {
-            display: block;
-            width: 100%;
-            height: 200px;
-            /* adjust as needed */
-            object-fit: cover;
-        }
-
-        .card-body {
-            text-align: start;
-            /* Center-align text */
-        }
-
-
-        .card-title {
-            font-size: 1.25rem;
-            /* Adjust font size for consistency */
-            color: black;
-        }
-
-        .card-body p {
-            color: black;
-        }
-
-        /* Meet the team section */
-
-
-
-        /* sidebar section */
-        .sidebar {
-            width: 220px;
-            background-color: #4D9B36;
-            position: sticky;
-            top: 0;
-            height: 100vh;
-            flex-shrink: 0;
-            /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); */
-        }
-
-        /* sidebar section */
-
-        /* comment section */
-        .comment-card {
-            max-width: 450px;
-            border: 1px solid #e0e0e0;
-            border-radius: 10px;
-            padding: 20px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-        }
-
-        /* comment section */
-
-
-
-        /* Footer section */
-        footer {
-            background-color: #4D9B36;
-        }
-
-        p i {
-            font-size: 20px;
-        }
-
-        a i {
-            font-size: 26px;
-        }
-
-        a {
-            color: white;
-            /* Default green color */
-            transition: color 0.3s ease;
-            text-decoration: none;
-        }
-
-        a:hover {
-            color: #F7C240;
-            /* Bright Yellow on hover */
-        }
-
-        /* Footer section */
-    </style>
 </head>
+<style>
+    body {
+
+        background-color: #EFF1FD;
+    }
+
+    .rounded-4 {
+        border-radius: 20px;
+    }
+
+    .rounded-5 {
+        border-radius: 30px;
+    }
+
+    /* nav bar things */
+    .navbar .navbar-nav .nav-link {
+        color: black;
+        font-family: "Irish Grover", system-ui;
+    }
+
+    .sign-btn:hover {
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .login:hover {
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    /* nav bar things */
+
+
+
+    /* button transform */
+    a.btn {
+        transition: box-shadow 0.3s ease, transform 0.3s ease;
+    }
+
+    a.btn:hover {
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        transform: scale(1.05);
+        /* Slightly enlarge */
+    }
+
+    /* button transform */
+
+
+
+
+
+
+    /* sidebar section */
+    .sidebar {
+        width: 220px;
+        background-color: #4D9B36;
+        position: sticky;
+        top: 0;
+        height: 100vh;
+        flex-shrink: 0;
+        /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); */
+    }
+
+    /* sidebar section */
+
+
+    /* Blogs section */
+    .blog-card {
+        max-width: 400px;
+        height: auto;
+        border: 1px solid #6bb853;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .blog-card img {
+        border-radius: 10px;
+    }
+
+    .blog-card a {
+        color: black;
+        transition: color 0.3s ease;
+        text-decoration: none;
+    }
+
+    .blog-card a:hover {
+        color: #F7C240;
+        /* Bright Yellow on hover */
+    }
+
+    div.blog-card {
+        transition: box-shadow 0.3s ease, transform 0.3s ease;
+    }
+
+    div.blog-card:hover {
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        transform: scale(1.02);
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+        /* Adjust font size for consistency */
+    }
+
+    .card-body p {
+        color: black;
+    }
+
+    /* Blogs section */
+
+
+    /* comment section */
+    .comment-card {
+        max-width: 450px;
+        border: 1px solid #e0e0e0;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    /* comment section */
+
+
+
+    /* Footer section */
+    footer {
+        background-color: #4D9B36;
+    }
+
+    p i {
+        font-size: 20px;
+    }
+
+    a i {
+        font-size: 26px;
+    }
+
+    a {
+        color: white;
+        /* Default green color */
+        transition: color 0.3s ease;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #F7C240;
+        /* Bright Yellow on hover */
+    }
+
+    /* Footer section */
+</style>
 
 <body>
 
@@ -304,45 +301,60 @@
                     <!-- Header -->
 
                     <!--Blogs card-->
-                    <div class="row justify-content-center align-items-center d-flex">
+                    <div class="row justify-content-around align-items-center d-flex">
                         <!--First Blog-->
-                        <div class="col-4">
-                            <img src="images/400x300.png" alt="Main" class="img-fluid" />
-                            <div class="card-body">
+                        <div class="blog-card col-4 p-0">
+                            <a href="">
+                                <img src="images/400x300.png" alt="Main" class="img-fluid" />
+                            </a>
+                            <div class="card-body px-4">
                                 <a href="">
                                     <h5 class="card-title mb-3">The Title Of The Blog</h5>
                                 </a>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam possimus delectus
                                     qui, impedit praesentium odit officiis quam et alias odio.</p>
-                                <p><i class="bi bi-clock-fill text-danger"></i> 24 April, 2016</p>
+                                <p class="d-flex justify-content-between align-items-center">
+                                    <span>By <a class="text-decoration-underline" href="">Shelter Name</a>
+                                    </span> <span>20 september 2025</span>
+                                </p>
                             </div>
                         </div>
                         <!--First Blog-->
 
                         <!--second Blog-->
-                        <div class="col-4">
-                            <img src="images/400x300.png" alt="Main" class="img-fluid" />
-                            <div class="card-body">
+                        <div class="blog-card col-4 p-0">
+                            <a href="">
+                                <img src="images/400x300.png" alt="Main" class="img-fluid" />
+                            </a>
+                            <div class="card-body px-4">
                                 <a href="">
                                     <h5 class="card-title mb-3">The Title Of The Blog</h5>
                                 </a>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam possimus delectus
                                     qui, impedit praesentium odit officiis quam et alias odio.</p>
-                                <p><i class="bi bi-clock-fill text-danger"></i> 24 April, 2016</p>
+                                <p class="d-flex justify-content-between align-items-center">
+                                    <span>By <a class="text-decoration-underline" href="">Shelter Name</a>
+                                    </span> <span>20 september 2025</span>
+                                </p>
                             </div>
                         </div>
                         <!--second Blog-->
 
                         <!--third Blog-->
-                        <div class="col-4">
-                            <img src="images/400x300.png" alt="Main" class="img-fluid" />
-                            <div class="card-body">
+                        <div class="blog-card col-4 p-0">
+                            <a href="">
+                                <img src="images/400x300.png" alt="Main" class="img-fluid" />
+                            </a>
+                            <div class="card-body px-4">
                                 <a href="">
                                     <h5 class="card-title mb-3">The Title Of The Blog</h5>
                                 </a>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam possimus delectus
                                     qui, impedit praesentium odit officiis quam et alias odio.</p>
-                                <p><i class="bi bi-clock-fill text-danger"></i> 24 April, 2016</p>
+                                <p class="d-flex justify-content-between align-items-center">
+                                    <span>By <a class="text-decoration-underline" href="">Shelter Name</a>
+                                    </span> <span>20 september 2025</span>
+                                </p>
                             </div>
                         </div>
                         <!--third Blog-->
