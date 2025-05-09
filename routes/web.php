@@ -47,6 +47,25 @@ Route::get('/ShelterInfo', function () {
     return view('shelterInfo');
 })->name('ShelterInfo');
 
+Route::get('/OneBlog', function () {
+    return view('oneBlog');
+})->name('OneBlog');
+
+Route::get('/ShelterBlogs', function () {
+    return view('shelterBlogs');
+})->name('ShelterBlogs');
+
+Route::get('/ShelterComments', function () {
+    return view('shelterComments');
+})->name('ShelterComments');
+
+Route::get('/Comments', function () {
+    return view('comments');
+})->name('Comments');
+
+Route::get('/Blogs', function () {
+    return view('blogs');
+})->name('Blogs');
 
 Route::get('/Donate', [TheMainController::class, 'index'])->name('donate');
 Route::get('/DonateInfo', [TheMainController::class, 'DonateInfo'])->name('donateInfo');
